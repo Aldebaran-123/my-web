@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>堵桥来</title>
-    <link rel="stylesheet" href="style.css">
     <style>
        h1 {
             color: lab(89.61% -63.76 14.73);
@@ -19,6 +18,140 @@
         p{
             color:lab(89.61% -63.76 14.73);
         }
+        *{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: rgb(15, 24, 30);
+    height: 90px;
+    width: 100%;
+    position: relative;
+}
+header a{
+    color: lab(89.61% -63.76 14.73);
+       text-decoration: none;
+}
+header a:hover{
+    text-decoration:underline;
+}
+header li{
+    display:inline;
+    margin-right :4vw;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+h1{
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    
+}
+header img{
+    position: absolute;
+    left: 30px;
+    top: 7px;
+}/*以上是标题*/
+.news{
+    background-color: rgb(25, 42, 53);
+    height: 400px;
+}
+.news h2{
+position: relative;
+    left: 480px;
+    top: 10px;
+}
+
+.news h3{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    line-height: 100%;
+}
+.news p{
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+.container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    .content-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10%;
+            gap: 10px;
+        }
+.image-container {
+            flex: 0 0 45%;
+            max-width: 45%;
+        }
+        
+        .image-container img {
+            width: 50%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+       .text-container {
+            flex: 1;
+            padding: 100px;
+        }
+        
+        .text-container h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        
+        .text-container p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ccc;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .content-row {
+                flex-direction: column;
+            }
+            
+            .image-container {
+                flex: 1;
+                max-width: 100%;
+            }
+        }  
+        .newss{
+            background-color: rgb(25, 42, 53);
+            height: 300px;
+        }
+.newss a{
+    color: lab(89.61% -63.76 14.73);
+       text-decoration: none;
+}
+.newss a:hover{
+text-decoration:underline;
+}
+.newss h3{
+    position: relative;
+    left: 600px;
+    top: 10px;}
+.newss a{
+    position: relative;
+    left: 600px;
+    top: 10px;}
+    .newss img{
+    position: relative;
+    left: 600px;
+    top: 10px;}
     </style>
 </head>
 <body>
@@ -62,4 +195,5 @@
 </body>
 
 </html>
+
 
